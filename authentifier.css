@@ -1,0 +1,353 @@
+form {
+  margin: 50px auto;
+  width: 500px;
+}
+
+.barrecherche {
+  min-width: 190px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(35, 35, 122);
+  color: white;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: solid;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 250px;
+
+}
+
+.facebook-icon {
+  width: 10px;
+  height: 20px;
+  border: solid;
+  border-radius: 2px;
+}
+
+.fb {
+  height: 5px;
+  width: 5px;
+  display: center;
+  display: inline-block;
+}
+
+.containerauthentifier {
+  border: 5px solid;
+  padding: 90px;
+}
+
+.head1 {
+  background-size: auto;
+
+
+}
+
+
+.logo_premier {
+
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('img/Home.png');
+  background-size: cover;
+  background-position: center;
+  border: 2px solid;
+  border-radius: 5px;
+
+}
+
+.logo1 {
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.pp {
+  background-color: rgb(218, 215, 215);
+  margin-left: 190px;
+}
+
+
+
+.nav11 {
+  /* pour rendre la bare de recherche et les buttons dans le meme ligne */
+  display: inline-block;
+
+  background-color: rgb(72, 134, 72);
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-size: 20px 20px;
+}
+
+
+
+.d1 {
+
+  display: inline-block;
+  display: flex;
+  color: white;
+  text-decoration: wavy;
+  background-color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 12px;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: rgb(31, 116, 31);
+}
+
+.d1 a {
+  color: black;
+  text-decoration: none;
+  padding: 14px 16px;
+  border-top: 2px solid transparent;
+
+}
+
+.d1 a:hover {
+  color: #4CAF50;
+  /* Nouvelle couleur du texte au survol */
+  border-color: #4CAF50;
+  /* Nouvelle couleur de la bordure au survol */
+}
+
+.d1 a.active {
+  color: #4CAF50;
+  /* Nouvelle couleur du texte pour le lien actif */
+  border-color: #4CAF50;
+  /* Nouvelle couleur de la bordure pour le lien actif */
+}
+
+.d1 a.home {
+  background-color: #4CAF50;
+}
+
+
+
+.nav22 {
+  /* pour rendre la bare de recherche et les buttons dans le meme ligne */
+  display: inline-block;
+
+  background-color: rgb(76, 116, 190);
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-size: 100px 10px;
+}
+
+
+
+.d2 {
+
+  display: inline-block;
+  display: flex;
+  color: white;
+  text-decoration: wavy;
+  background-color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  margin-left: 12px;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: black;
+
+
+}
+
+.d2 a {
+  color: black;
+  text-decoration: none;
+  padding: 14px 16px;
+  border-top: 2px solid transparent;
+
+}
+
+.d2 a:hover {
+  color: #4CAF50;
+  /* Nouvelle couleur du texte au survol */
+  border-color: #4CAF50;
+  /* Nouvelle couleur de la bordure au survol */
+}
+
+.d2 a.active {
+  color: #4CAF50;
+  /* Nouvelle couleur du texte pour le lien actif */
+  border-color: #4CAF50;
+  /* Nouvelle couleur de la bordure pour le lien actif */
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 100px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.button1 {
+
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  /* pour que la photo dans la button sera centré */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.button1 img {
+  width: 14px;
+  height: auto;
+  display: block;
+
+
+}
+
+.button2 {
+
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button2 img {
+  width: 20px;
+  height: auto;
+  display: block;
+}
+
+.button3 {
+
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 12px;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.button3 img {
+  width: 20px;
+  height: 30px;
+  height: auto;
+  display: block;
+}
+
+.buttconecter {
+  width: 300px;
+  margin-left: 20%;
+  background-color: rgb(76, 116, 190);
+
+}
+
+h4 {
+  margin-left: 10%;
+}
+
+p {
+  margin-left: 20%;
+
+}
+
+.site-footer {
+  background-color: rgb(51, 98, 185);
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.footer-section h2 {
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.bottom-bar {
+  background-color: rgb(73, 201, 73);
+  text-align: center;
+  padding: 10px 0;
+
+}
+
+.bottom-bar p {
+  margin: 0;
+  color: black;
+}

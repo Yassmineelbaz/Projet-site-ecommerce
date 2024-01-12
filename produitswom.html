@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    produitwomen page
+  </title>
+  <meta charset="utf-8">
+  <link href="produitswom.css" rel="stylesheet" type="text/css"> <!--Dont forget to link ur css code-->
+  <script src="ajouteraupanier.js"></script>
+  <script>
+    function ajouterAuPanier() {
+
+      alert("Produit ajouté au panier !");
+    }
+  </script>
+</head>
+
+<body>
+  <header class="head1">
+
+    <div class="logo_premier">
+      <img src="img/Logo.png" alt="logo de shop" class="logo1" height="90" width="90">
+
+    </div>
+
+
+    <nav class="nav11">
+
+      <ul class="d1">
+        <li><a href="frontPage.html">Home</a></li>
+        <li><a href="produits.html">Women</a></li>
+        <li><a href="produitsmen.html">Men</a></li>
+        <li><a href="produitsmen.css">kids</a></li>
+        <li><a href="beauty.html">Beauty</a></li>
+        <li><a href="#">More</a></li>
+      </ul>
+
+      <div class="container">
+
+        <form action="">
+          <input type="text" placeholder="Search" name="q">
+        </form>
+        <button class="button1">
+          <img src="img/Magnifier free icons designed by Freepik.jpg">
+        </button> <!-- the image here is the search icon -->
+        <button class="button2" onclick="goToPage1()">
+          <img src="img/Account, user, interface, profile icon - Free download.jpg">
+        </button> <!-- the image here is se connecte icon -->
+        <button class="button3" onclick="goToPage2()">
+          <img
+            src="img/Wicker Basket Vector Icon Symbol Picnic Isolated on White Background Stock Vector - Illustration of decoration, rural_ 160342561.jpg">
+        </button> <!-- the image here is ajouter au panier icon -->
+        <script>
+          function goToPage1() {
+            window.location.href = 'authentifier.php';
+          }
+
+          function goToPage2() {
+            window.location.href = 'monpanier.html';
+          }
+
+        </script>
+      </div>
+    </nav>
+
+    <nav class="nav22">
+
+      <ul class="d2">
+        <li><a href="produits.html">Dresses</a></li>
+        <li><a href="produits.html">Jeans</a></li>
+        <li><a href="produits.html">Tops</a></li>
+        <li><a href="produits.html">Bottoms</a></li>
+        <li><a href="produits.html">Shoes</a></li>
+        <li><a href="beauty.html">Accessories</a></li>
+        <li><a href="produits.html">Rompers</a></li>
+        <li><a href="beauty.html">Beauty</a></li>
+        <li><a href="beauty.html">Bags</a></li>
+        <li><a href="produits.html">Matching Sets</a></li>
+        <li><a href="produits.html">Hoodies </a></li>
+        <li><a href="produits.html"> Sweatshirts</a></li>
+        <li><a href="produits.html">Sleepwear</a></li>
+        <li><a href="produits.html">Trending</a></li>
+
+      </ul>
+
+    </nav>
+  </header>
+  <main>
+    <div class="img2">
+      <img src="img/White Beige Minimalist Aesthetic Fashion Trends YouTube Thumbnail .png" width="700" height="500">
+      <img src="img/col2.png" width="700" height="500">
+    </div>
+
+    <img src="img/Dark Brown And White  Simple Aesthetic Fashion YouTube Thumbnail.png" width="1100" height="500"
+      class="coll2">
+
+    <!--PRODUCTS-->
+    <div class="product-container">
+      <div class="product" id="produitt">
+        <img src="img/wom1 (1).jpg" alt="Vêtement 1">
+        <h2>Ensemble</h2>
+        <p>Prix : $293</p>
+        <button onclick="ajouterAuPanier('produitt', 209)">Acheter</button>
+      </div>
+
+      <div class="product" id="prroduit">
+        <img src="img/wom2 (1).jpg" alt="Vêtement 1">
+        <h2>Dress</h2>
+        <p>Prix : $293</p>
+        <button onclick="ajouterAuPanier('prroduit', 209)">Acheter</button>
+      </div>
+
+      <div class="product" id="pproduit">
+        <img src="img/wom3.jpg" alt="Vêtement 1">
+        <h2>Pantallon blanc</h2>
+        <p>Prix : $293</p>
+        <button onclick="ajouterAuPanier('pproduit', 209)">Acheter</button>
+      </div>
+      <div class="product" id="Produiit">
+        <img src="img/wom4.jpg" alt="Vêtement 1">
+        <h2>Pantallon vert</h2>
+        <p>Prix : $293</p>
+        <button onclick="ajouterAuPanier('Produiit', 209)">Acheter</button>
+      </div>
+
+      <div class="product" id="produuit">
+        <img src="img/wom5.jpg" alt="Vêtement 1">
+        <h2>Dress soire</h2>
+        <p>Prix : $293</p>
+        <button onclick="ajouterAuPanier('Produuit', 209)">Acheter</button>
+      </div>
+
+      <div class="product" id="prodduit">
+        <img src="img/wom6.jpg" alt="Vêtement 1">
+        <h2>chemise orange</h2>
+        <p>Prix : $293</p>
+        <button onclick="ajouterAuPanier('Prodduit', 209)">Acheter</button>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h2>A propos de nous</h2>
+        <div>Notre marque incarne l'équilibre parfait entre la modernité et l'élégance intemporelle.
+          Chaque produit que nous proposons est soigneusement conçu pour refléter la sophistication
+          et le raffinement, offrant à nos clients une expérience d'achat en ligne unique.</div>
+      </div>
+
+      <div class="footer-section">
+        <h2>Liens rapides</h2>
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Produits</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Panier</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h2>Contactez-nous</h2>
+        <p>Email: elbaz.y.fst@uhp.ac.ma</p>
+        <p>Téléphone: +212 077 08373 87</p>
+      </div>
+    </div>
+
+    <div class="bottom-bar">
+      <p>&copy; Chique Style. Tous droits réservés.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

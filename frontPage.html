@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Chique Style
+  </title>
+  <meta charset="utf-8">
+  <link href="frontPage.css" rel="stylesheet" type="text/css">
+  <script src="ajouteraupanier.js"></script>
+  <script>
+
+    function ajouterAuPanier() {
+
+      alert("Produit ajouté au panier !");
+    }
+  </script>
+</head>
+
+
+<body>
+  <header>
+
+    <div class="logo_premier">
+      <img src="img/Logo.png" alt="logo de shop" class="logo1" height="90" width="90">
+
+    </div>
+
+
+
+    <nav class="nav11">
+
+      <ul class="d1">
+        <li><a href="frontPage.html">Home</a></li>
+        <li><a href="produitswom.html">Women</a></li>
+        <li><a href="produitsmen.html">Men</a></li>
+        <li><a href="#">kids</a></li>
+        <li><a href="beauty.html">Beauty</a></li>
+        <li> <a href="#">More</a>
+          <ul>
+            <li><a href="#">Going Out</a></li>
+            <li><a href="#">Airport Outfits</a></li>
+            <li><a href="#">Everyday Basics</a></li>
+            <li><a href="#">Office Outfits</a></li>
+          </ul>
+        </li>
+      </ul>
+
+
+
+      <div class="container">
+
+        <form action="">
+          <input type="text" placeholder="Search" name="q">
+        </form>
+        <button class="button1">
+          <img src="img/Magnifier free icons designed by Freepik.jpg">
+        </button> <!-- the image here is the search icon -->
+
+        <button class="button2" onclick="goToPage1()">
+          <img src="img/Account, user, interface, profile icon - Free download.jpg">
+        </button> <!-- the image here is se connecte icon -->
+        <button class="button3" onclick="goToPage2()">
+          <img
+            src="img/Wicker Basket Vector Icon Symbol Picnic Isolated on White Background Stock Vector - Illustration of decoration, rural_ 160342561.jpg">
+        </button> <!-- the image here is ajouter au panier icon -->
+
+        <script>
+          function goToPage1() {
+            window.location.href = 'authentifier.php';
+          }
+
+          function goToPage2() {
+            window.location.href = 'monpanier.html';
+          }
+
+        </script>
+      </div>
+    </nav>
+
+    <nav class="nav22">
+
+      <ul class="d2">
+        <li><a href="produitswom.html">Dresses</a></li>
+        <li><a href="produitswom.html">Jeans</a></li>
+        <li><a href="produitswom.html">Tops</a></li>
+        <li><a href="produitswom.html">Bottoms</a></li>
+        <li><a href="produitswom.html">Shoes</a></li>
+        <li><a href="beauty.html">Accessories</a></li>
+        <li><a href="produitswom.html">Rompers</a></li>
+        <li><a href="beauty.html">Beauty</a></li>
+        <li><a href="beauty.html">Bags</a></li>
+        <li><a href="produitsmen.html">Matching Sets</a></li>
+        <li><a href="produitsmen.html">Hoodies </a></li>
+        <li><a href="produitsmen.html"> Sweatshirts</a></li>
+        <li><a href="produitsmen.html">Sleepwear</a></li>
+        <li><a href="produitswom.html">Trending</a></li>
+
+      </ul>
+
+    </nav>
+  </header>
+
+  <main>
+    <img src="img/Beige Aesthetic Fashion Clothing Collection Medium Banner.png" width="1090" height="500" alt="slogan"
+      class="coll">
+    <div class="product-container" id="Produit1">
+      <div class="product">
+        <img src="img/Dress1.jpg" alt="Vêtement 1">
+
+        <h2>White lilies</h2>
+
+        <p>Prix : $299</p>
+        <button onclick="ajouterAuPanier('Produit1', 299)">Acheter</button>
+      </div>
+
+
+
+      <div class="product" id="Produit2">
+        <img src="img/top1.jpg" alt="Vêtement 2">
+        <h2> tops escet </h2>
+
+        <p>Prix : $209</p>
+        <button onclick="ajouterAuPanier('Produit2', 209)">Acheter</button>
+      </div>
+
+      <div class="product" id="Produit67">
+        <img src="img/chemise1.jpg" alt="Vêtement 3">
+        <h2>Chemise rose</h2>
+
+        <p>Prix : $222</p>
+        <button onclick="ajouterAuPanier('Produit67', 209)">Acheter</button>
+      </div>
+      <div class="product" id="Produit56">
+        <img src="img/ensmble1.jpg" alt="Vêtement 4">
+        <h2>Ensemble vert</h2>
+
+        <p>Prix : $293</p>
+        <button onclick="ajouterAuPanier('Produit56', 209)">Acheter</button>
+      </div>
+      <div class="product" id="Produit45">
+        <img src="img/chemise2.jpg" alt="Vêtement 5">
+        <h2>chemise bleu</h2>
+
+        <p>Prix : $292</p>
+        <button onclick="ajouterAuPanier('Produit45', 209)">Acheter</button>
+      </div>
+      <div class="product" id="Produit44">
+        <img src="img/jean1.jpg" alt="Vêtement 6">
+        <h2>monteau black</h2>
+
+        <p>Prix : $129</p>
+        <button onclick="ajouterAuPanier('Produit44', 209)">Acheter</button>
+      </div>
+      <div class="product" id="Produit37">
+        <img src="img/ensemble2.jpg" alt="Vêtement 7">
+        <h2>Ensemble blanc</h2>
+
+        <p>Prix : $211</p>
+        <button onclick="ajouterAuPanier('Produit37', 209)">Acheter</button>
+      </div>
+
+      <div class="product" id="Produit25">
+        <img src="img/Dress3.jpg" alt="Vêtement 8">
+        <h2>Dress party</h2>
+
+        <p>Prix : $296</p>
+        <button onclick="ajouterAuPanier('Produit25', 209)">Acheter</button>
+      </div>
+
+      <div class="product" id="Produit23">
+        <img src="img/ensemble3.jpg" alt="Vêtement 9">
+        <h2>Ensemble back to work</h2>
+
+        <p>Prix : $255</p>
+        <button onclick="ajouterAuPanier('Produit23', 209)">Acheter</button>
+      </div>
+
+      <div class="product" id="Produit22">
+        <img src="img/sweater1.jpeg" alt="Vêtement 10">
+        <h2>Girly sweater</h2>
+
+        <p>Prix : $295</p>
+        <button onclick="ajouterAuPanier('Produit22', 209)">Acheter</button>
+      </div>
+
+      <div class="product" id="Produit02">
+        <img src="img/chmise6.jpeg" alt="Vêtement 11">
+        <h2>Chemise black summer</h2>
+
+        <p>Prix : $294</p>
+        <button onclick="ajouterAuPanier('Produit02', 209)">Acheter</button>
+      </div>
+
+      <div class="product" id="Produit3">
+        <img src="img/sweater4.jpeg" alt="Vêtement 12">
+        <h2>Sweater kneater</h2>
+
+        <p>Prix : $234</p>
+        <button onclick="ajouterAuPanier('Produit3', 209)">Acheter</button>
+      </div>
+
+      <div class="product" id="Produit4">
+        <img src="img/jean4.jpeg">
+        <h2>Pantallon</h2>
+
+        <p>Prix : $120</p>
+        <button onclick="ajouterAuPanier('Produit4', 209)">Acheter</button>
+      </div>
+
+      <div class="product" id="Produit5">
+        <img src="img/jacket1.jpeg">
+        <h2>Jacket biege</h2>
+
+        <p>Prix : $199</p>
+        <button onclick="ajouterAuPanier('Produit5', 209)">Acheter</button>
+      </div>
+      <div class="product" id="Produit6">
+        <img src="img/sweater2.jpeg">
+        <h2>Sweater maron</h2>
+
+        <p>Prix : $223</p>
+        <button onclick="ajouterAuPanier('Produit6', 209)">Acheter</button>
+      </div>
+      <div class="product" id="Produit7">
+        <img src="img/gardian1.jpeg">
+        <h2>Sweater carry</h2>
+
+        <p>Prix : $566</p>
+        <button onclick="ajouterAuPanier('Produit7', 209)">Acheter</button>
+      </div>
+
+      <div class="product" id="Produit8">
+        <img src="img/ensemble4.jpeg">
+        <h2>Elegent ensemble</h2>
+
+        <p>Prix : $255</p>
+        <button onclick="ajouterAuPanier('Produit8', 209)">Acheter</button>
+      </div>
+
+
+      <div class="product" id="Produit9">
+        <img src="img/ensemble7.jpeg">
+        <h2>Pantallon</h2>
+
+        <p>Prix : $344</p>
+        <button onclick="ajouterAuPanier('Produit9', 209)">Acheter</button>
+      </div>
+
+
+      <!-- Une photo plus text  -->
+      <div class="Aboutus">
+        <img src="img/aboutus.jpg" alt="AboutUs" class="imageUs">
+        <div class="textUs">
+          <h1>About Us</h1>
+          <p> We attach great importance to the quality of our clothing.
+            Each piece is carefully designed and crafted with high-quality materials to ensure exceptional durability
+            and
+            comfort.
+            Our brand offers a wide range of clothing to suit all tastes and occasions.
+            Whether you're looking for casual wear, professional attire,
+            or elegant pieces for special events, we've got you covered. </p>
+
+
+          <a href="#" target="_blank">
+            <button type="button" class="RS">
+              <img src="img/TOP 100 Stylish Standard Whatsapp DP 2023.jpg" class="WTS">
+            </button>
+            <a href="#" target="_blank">
+              <button type="button" class="RS">
+                <img
+                  src="img/Instagram Clipart Hd PNG, Instagram Logo Social Media Instagram Icon, Instagram Icons, Social Icons, Logo Icons PNG Image For Free Download.jpg"
+                  class="INS">
+              </button>
+              <a href="https://www.linkedin.com/company/chiique-style/" target="_blank">
+                <button type="button" class="RS">
+                  <img src="img/Premium Vector _ Square linkedin logo isolated on white background.jpg" class="LK">
+                </button>
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61554292875630&mibextid=2JQ9oc" target="_blank">
+                <button type="button" class="RS">
+                  <img src="img/Facebook, facebook button, facebook logo, social media icon - Free download.jpg"
+                    class="fb">
+                </button>
+              </a>
+        </div>
+      </div>
+
+
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h2>A propos de nous</h2>
+        <div>Notre marque incarne l'équilibre parfait entre la modernité et l'élégance intemporelle.
+          Chaque produit que nous proposons est soigneusement conçu pour refléter la sophistication
+          et le raffinement, offrant à nos clients une expérience d'achat en ligne unique.</div>
+      </div>
+
+      <div class="footer-section">
+        <h2>Liens rapides</h2>
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Produits</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Panier</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h2>Contactez-nous</h2>
+        <p>Email: elbaz.y.fst@uhp.ac.ma</p>
+        <p>Téléphone: +212 077 08373 87</p>
+      </div>
+    </div>
+
+    <div class="bottom-bar">
+      <p>&copy; Chique Style. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+</body>
+
+
+</html>
